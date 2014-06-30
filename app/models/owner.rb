@@ -1,4 +1,5 @@
 class Owner 
+
 	def name
 		name = 'Foobar Kadigan'
 	end
@@ -15,7 +16,6 @@ class Owner
 		else
 		  countdown = (birthday.next_year - today).to_i
 		end
-		
 	end
 
 
